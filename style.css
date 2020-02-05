@@ -17,7 +17,7 @@ h1
     text-align: center;
     font-family: "crete round";
     width: 400px;
-    margin: 50px auto 20px auto;
+    margin: 50px auto 50px auto;
     border-bottom: 3px solid ;
 }
 
@@ -80,6 +80,7 @@ header #navig .menu2 ul a:hover
 { 
     display: flex;
     justify-content: space-around;
+    
    
 }
 #programme .first 
@@ -88,6 +89,7 @@ header #navig .menu2 ul a:hover
     text-align: center;
     display: flex;
     flex-direction: column;
+    box-shadow: 1px 1px 8px rgb(14, 14, 13);
 
 }
 #programme .first .champions1 i
@@ -110,7 +112,7 @@ header #navig .menu2 ul a:hover
 }
 #programme .first .rencontre h3
 {
-    width: 550px;
+    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,6 +124,8 @@ header #navig .menu2 ul a:hover
     text-align: center;
     display: flex;
     flex-direction: column;
+    height: 350px;
+   box-shadow: 1px 1px 8px rgb(20, 20, 19);
 
 }
 #programme .second .champions2 i
@@ -157,7 +161,9 @@ header #navig .menu2 ul a:hover
     height: 50vh;
     background-color: ;
     flex-direction: column;
-    margin: 120px 0;
+    margin: 100px 0;
+    
+    
 }
 #actu h2
 {
@@ -175,6 +181,7 @@ header #navig .menu2 ul a:hover
     display: flex;
     justify-content: center;
     font-family: "crete round";
+    
 }
 #actu .article
 {
