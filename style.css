@@ -68,12 +68,63 @@ header #navig .menu2 ul a:hover
 /* SECTION PROGRAMME */
 
 #programme 
+{ 
+    display: flex;
+    justify-content: space-around;
+   
+}
+#programme .first 
+{
+    width: 690px;
+    text-align: center;
+
+}
+#programme .first .champions1 i
+{
+    font-size: 50px;
+    color: orange;
+    margin: 50px 0 20px 0;
+}
+#programme .first .champions1 h2
+{
+    
+    margin-bottom: 20px;
+    color: red;
+}
+#programme .first .rencontre
 {
     display: flex;
+    justify-content: center;
 }
-#programme .first .
+#programme .first .rencontre h3
+{
+    margin: 45px;
+}
+#programme .second
+{
+    
+    text-align: center;
 
-
-
-
+}
+#programme .second .champions2 i
+{
+    font-size: 50px;
+    color: orange;
+    margin: 50px 0 20px 0;
+}
+#programme .second .champions2 h2
+{
+    
+    margin-bottom: 20px;
+    color: red;
+}
+#programme .second .rencontre
+{
+    display: flex;
+    justify-content: center;
+}
+#programme .second .rencontre h3
+{
+    margin: 45px;
+}
 
