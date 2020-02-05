@@ -1,48 +1,72 @@
+/* GENERAL */
+
 *
 {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+.menu1,.menu2
+{
+    font-family: "crete round" sans-serif;
+    font-size: 20px;
+}
 
-header nav
+/* HAEDER barre navig */
+
+header #navig
 {
     display: flex;
     height: 300px;
     flex-wrap: wrap;
-    border-bottom: 1px solid rgb(37, 32, 32);
+    border-bottom: 1px solid rgb(214, 177, 13);
     box-shadow: 0px 0px 20px rgb(240, 15, 7);
     
 
 }
-header nav .navig 
+header #navig 
 {
     display: flex;
     justify-content: center;
     font-family: 'crete round';
     align-items: center;
 }
-header nav .logoclub
+header #navig .menu1 ul
 {
-    margin: 10px 10px;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+header #navig .menu2 ul
+{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+header #navig .menu1 ul a
+{
+ color: green;
+ text-decoration: none;
     
 }
-header nav ul
+header #navig .menu2 ul a
 {
-    display: flex;
-  justify-content: space-around;
-    width: 1300px;
-    list-style: none;
-    font-size: 25px;
-}
-header nav .navig li a
-{
-   text-decoration: none;
    color: red;
+   text-decoration: none;
 }
-header nav .navig li a:hover
+header #navig .menu1 ul a:hover
 {
-    color: green; 
-    transition: 0.4s;
-    transform: scale(1.4);
+    color: red;
 }
+header #navig .menu2 ul a:hover
+{
+    color: green;
+}
+
+
+
+
+
+
