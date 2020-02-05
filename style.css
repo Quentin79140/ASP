@@ -5,6 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
 }
 .menu1,.menu2
 {
@@ -83,8 +84,10 @@ header #navig .menu2 ul a:hover
 }
 #programme .first 
 {
-    width: 690px;
+    
     text-align: center;
+    display: flex;
+    flex-direction: column;
 
 }
 #programme .first .champions1 i
@@ -103,15 +106,22 @@ header #navig .menu2 ul a:hover
 {
     display: flex;
     justify-content: center;
+        
 }
 #programme .first .rencontre h3
 {
-    margin: 45px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+   
 #programme .second
 {
     
     text-align: center;
+    display: flex;
+    flex-direction: column;
 
 }
 #programme .second .champions2 i
@@ -133,6 +143,67 @@ header #navig .menu2 ul a:hover
 }
 #programme .second .rencontre h3
 {
-    margin: 45px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+/* SECTION ACTU */
+
+#actu
+{
+    width: 50%;
+    height: 50vh;
+    background-color: ;
+    flex-direction: column;
+    margin: 120px 0;
+}
+#actu h2
+{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border-bottom: black;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+#actu .medias
+{
+    display: flex;
+    justify-content: center;
+    font-family: "crete round";
+}
+#actu .article
+{
+    width: 500px;
+    height: 250px;
+    background-image: url(article.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+#actu .article a
+{
+    text-decoration: none;
+}
+.button-1
+{
+    width: 150px;
+    height: 30px;
+    color: red;
+    padding: 6px 20px;
+    background-color: green;
+    font-size: 20px;
+    border-radius: 3px;
+    margin: 0 auto;
+    line-height: 20px;
+    text-align: center;
+
+    
+} 
