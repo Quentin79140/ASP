@@ -255,6 +255,24 @@ footer
     font-size: 50px;
     color: yellow;
 }
+#contact .wrapper .button-2
+{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 3px;
+    background-color: red;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'crete around';
+
+}
+#contact .wrapper .button-2:hover
+{
+    background-color: yellow;
+    color: red;
+}
 #contact .reseaux i:hover
 {
     color: red;
