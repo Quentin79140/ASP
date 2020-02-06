@@ -90,6 +90,7 @@ header #navig .menu2 ul a:hover
     display: flex;
     flex-direction: column;
     box-shadow: 1px 1px 8px rgb(14, 14, 13);
+    padding: 10px;
 
 }
 #programme .first .champions1 i
@@ -126,6 +127,7 @@ header #navig .menu2 ul a:hover
     flex-direction: column;
     height: 350px;
    box-shadow: 1px 1px 8px rgb(20, 20, 19);
+   padding: 10px;
 
 }
 #programme .second .champions2 i
