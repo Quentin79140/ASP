@@ -16,7 +16,7 @@
             <div class="menu1">
                 <ul>
                     <li><a href="#">Accueil</a></li>
-                    <li><a href="#">Classement et Calendrier</a></li>
+                    <li><a href="#">Actualités</a></li>
                     <li><a href="#">Le club</a></li>
                     
                 </ul>
@@ -25,8 +25,8 @@
             <div class="menu2">
                 <ul>
                     <li><a href="#">Equipes</a></li>
-                    <li><a href="#">Convocation</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Convocations</a></li>
+                    <li><a href="#">Contacts</a></li>
                 </ul>
             </div>
         </section>
@@ -83,13 +83,18 @@
                 <h3>Contactez-nous</h3>
                 <p>Contactez-nous pour plus de renseignements concernant le club et pour organiser des rencontres amicales !</p>
                 <form>
-                    <label for="name">Nom</label>
+                    <label for="name"></label>
                     <input type="text" id="name" placeholder="Votre nom">
 
-                    <label for="club">Club</label>
+                    <label for="club"></label>
                     <input type="text" id="club" placeholder="Votre club">
 
-                    <label for="Email">Email</label>
+                    <label for="choix"></label>
+                    <select name="choix" id="choix">
+                    <option value="information">Information</option>
+                    <option value="match">Match</option>
+                    </select>   
+                    <label for="Email"></label>
                     <input type="text" id="mail" placeholder="Votre email">
 
                     <a href="#"><input type="submit" value="OK" class="button-2"></a>
