@@ -174,7 +174,7 @@ header #navig .menu2 ul a:hover
     height: 50vh;
     background-color: ;
     flex-direction: column;
-    margin: 100px 0;
+    margin: 10px 0;
     display: flex;
     justify-content: space-around;
     
@@ -186,8 +186,7 @@ header #navig .menu2 ul a:hover
     justify-content: center;
     border-radius: 10px;
     border-bottom: #4D5057;
-    margin-bottom: 50px;
-    text-decoration: underline;
+   text-decoration: underline;
     text-transform: uppercase;
 
 }
@@ -297,6 +296,11 @@ footer
     border-radius: 10px;
     box-shadow: 2px;
    
+}
+#contact .wrapper select
+{
+    border-radius: 10px;
+    box-shadow: 2px;
 }
 #contact .wrapper input[type=text]:focus
 {
