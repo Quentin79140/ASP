@@ -172,16 +172,16 @@ header #navig .menu2 ul a:hover
 {
     width: 100%;
     height: 50vh;
-    background-color: ;
     flex-direction: column;
     margin: 10px 0;
-    display: flex;
-    justify-content: space-around;
+    
+    
     
     
 }
 #actu h2
 {
+    width: 50%;
     display: flex;
     justify-content: center;
     border-radius: 10px;
@@ -192,8 +192,9 @@ header #navig .menu2 ul a:hover
 }
 #actu .medias
 {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     font-family: "crete round";
     
 }
@@ -226,6 +227,52 @@ header #navig .menu2 ul a:hover
     line-height: 20px;
     text-align: center;
 }
+#actu .tableau1
+{
+   
+}
+table, th, td 
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td 
+{
+    padding: 5px;
+}
+#actu .tableau1 h2
+{
+    width: 100%;
+}
+#actu .tableau1 .win
+{
+    display: block;
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin-right: 2.33333333px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    background: #4CB944;
+    color: white;
+}
+#actu .tableau1 .draw
+{
+    display: block;
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin-right: 2.33333333px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    background: orange;
+    color: white;
+}
+
+
 /* FOOTER */
 
 footer
