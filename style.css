@@ -16,9 +16,9 @@ h1
 {
     text-align: center;
     font-family: "crete round";
-    width: 400px;
+    text-decoration: underline;
     margin: 50px auto 50px auto;
-    border-bottom: 3px solid ;
+    
     color: #4D5057;
 }
 h2{
@@ -38,7 +38,7 @@ header img
 }
 .navbar-brand title
 {
-    font-family: "roboto" "crete-round";
+    font-family: "righteous";
 }
 /* header #navig
 {
