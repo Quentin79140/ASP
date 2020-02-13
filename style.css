@@ -16,9 +16,9 @@ h1
 {
     text-align: center;
     font-family: "crete round";
-    width: 400px;
+    text-decoration: underline;
     margin: 50px auto 50px auto;
-    border-bottom: 3px solid ;
+    
     color: #4D5057;
 }
 h2{
@@ -32,7 +32,15 @@ h4
 
 /* HAEDER barre navig */
 
-header #navig
+header img 
+{
+    margin:20px 20px;
+}
+.navbar-brand title
+{
+    font-family: "righteous";
+}
+/* header #navig
 {
     display: flex;
     height: 300px;
@@ -81,7 +89,7 @@ header #navig .menu1 ul a:hover
 header #navig .menu2 ul a:hover
 {
     color:#4CB944;
-}
+} */
 
 /* SECTION PROGRAMME */
 
