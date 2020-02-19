@@ -51,7 +51,7 @@ header img
 {
     font-family: "righteous";
 }
-/* header #navig
+header #navig
 {
     display: flex;
     height: 300px;
@@ -102,7 +102,7 @@ header #navig .menu2 ul a:hover
     color:#4CB944;
 } */
 
-/* SECTION PROGRAMME */
+ /* SECTION PROGRAMME */
 
 #programme 
 { 
